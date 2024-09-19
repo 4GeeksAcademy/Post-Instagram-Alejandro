@@ -1,16 +1,16 @@
 body{
     background-color: black;
     margin: 0;
+    overflow: hidden;
 }
 
 .post{
     background-color: white;
-    width: 70%;
-    height: 80%;
+    width: 30%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .post-header {
@@ -20,14 +20,23 @@ body{
     padding: 3%;
 }
 
+.info-container{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 1em;
+}
+
 .post-title {
-    margin-left: 10px;
+    font-weight: bold;
+    text-align: left;
 }
 
 .author {
+    text-align: left;
+}
+
+.fa-ellipsis-vertical{
     margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 
 img {
